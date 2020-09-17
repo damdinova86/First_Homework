@@ -10,9 +10,9 @@ public class DatatypeClass {
 
     public static void main(String[] args) {
         byte numOfHours = 24;
-                System.out.println("Number of hour in a day is " + numOfHours);
+        System.out.println("Number of hour in a day is " + numOfHours);
 
-                short numOfDays = 366;
+        short numOfDays = 366;
         System.out.println("Max number of days in a year " + numOfDays);
 
         short numOfEmp = 800;
