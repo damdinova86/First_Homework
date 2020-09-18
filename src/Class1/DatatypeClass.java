@@ -21,7 +21,7 @@ public class DatatypeClass {
         int popCountry = 18000000;
         System.out.println("Population in a country is " + popCountry);
 
-        double intRate = 3.55;
+        float intRate = 3.55f;
         System.out.println("Interest rate is " + intRate);
 
         double accBalance = 5003.35;
