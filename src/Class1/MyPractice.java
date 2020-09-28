@@ -144,5 +144,26 @@ boolean cc= com1 == com2;
         // true || true || false -> true
         // when you have "!- not"
         // !true || true || false -> !true -> false
+
+
+        // find if given number is even
+        int num =10;
+        boolean isEven = false;
+        int remainder= num%2;
+       isEven = remainder == 0;
+        System.out.println("is " + num + " even: "+ isEven);
+
+        //Find length of last word
+        //1. Split by space
+        String statement= "Hello word, I am good";
+        String[] words = statement.split(" ");
+        int len= words.length;
+         String lastWord = words[len-1];
+         int lastWordLength = lastWord.length();
+        System.out.println("Last word in the statement is " +lastWord + ", length - " +lastWordLength);
+
+
+
+
     }
 }
