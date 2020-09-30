@@ -162,6 +162,12 @@ boolean cc= com1 == com2;
          int lastWordLength = lastWord.length();
         System.out.println("Last word in the statement is " +lastWord + ", length - " +lastWordLength);
 
+        int N = 10;
+        int remainder1 = N%2;
+
+
+        //boolean ifNisOdd = N%2?N==0:N!=0;
+
 
 
 

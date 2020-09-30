@@ -79,8 +79,95 @@ public class Homework3 {
         String firstLetterOf_ThirdWord = splitWords[2].substring(0,1).toUpperCase();
         System.out.println(firstLetterOf_FirstWord+firstLetterOf_SecondWord+firstLetterOf_ThirdWord);
 
+        /**
+         * if name length is greater than 10 and number is greater than 5
+         * print the below:
+         *      name in all uppercase
+         *      and replace p with b in name
+         * else
+         * make result as false
+         *
+         *
+         * sout(result) // outside the if-else block
+         */
+        String name = "Happy";
+        boolean result =true;
+        int number =22;
+        if ((name.length()>10) && (number>5)) {
+            System.out.println(name.toUpperCase());
+            System.out.println(name.replace("p", "b"));
+        }else {
+            result = false;
+        }
+        System.out.println(result);
 
+
+
+
+
+
+
+
+
+//        String name = "Happy";
+//        boolean result = true;
+//        int number = 22;
+//
+//        if ((name.length()>10) && number>5){
+//            System.out.println(name.toUpperCase()+ name.replace("p", "b"));
+//
+//        } else {
+//            result =false;
+        }
+        //System.out.println(result);
+
+        /**
+         * based on month name, print season
+         * dec, jab, feb -> winter
+         * mar, apr, may -> summer
+         * jun, jul, aug -> fall
+         * sep, oct, nov -> spring
+         * if invalid monthName, print invalid month entered
+         */
+        //String monthName = "Sep";
+
+//        switch(monthName){
+//        case "Dec":
+//            System.out.println("winter");
+//            break;
+//        case "Sep":
+//            System.out.println("Sep");
+//            break;
+//        default:
+//            System.out.println("invalid day");
 
 
     }
-}
+
+
+        //String monthName = "dec, jab, feb";
+
+
+//        String monthName = "dec, jab, feb";
+//        switch (monthName){
+//            case "dec, jab, feb":
+//                System.out.println("winter");
+//                break;
+//            case "mar, apr, may":
+//                System.out.println("summer");
+//                break;
+//            case "jun, jul, aug":
+//                System.out.println("fall");
+//                break;
+//            case "sep, oct, nov ":
+//                System.out.println("spring");
+//                break;
+//            default:
+//                System.out.println("invalid");
+
+
+
+
+
+
+
