@@ -82,9 +82,12 @@ public class Homework4 {
                 } else if (cMode == "Eco") {
                     System.out.println("You are on Eco mode");
                 }
+//
+//                for (int i = 10; i>=1; i--) {
+//                    System.out.println(i);
+                String word = "happy";
+                // for ( int lenOfWord =word.length()-1)
 
         }
-
-
     }
 }

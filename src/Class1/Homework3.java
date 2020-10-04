@@ -8,22 +8,22 @@ public class Homework3 {
 
 
         // 1. Display length of the first name.
-        String lastName = "Damdinova";
-        String firstName = "Balzhima";
-        int lengthOfFirstName = firstName.length();
-        System.out.println("Length of my fist name is " + lengthOfFirstName);
+        String fullName = "Balzhima Damdinova";
+       String[] splitName = fullName.split(" ");
+       int firstNameLen= splitName[0].length();
+        System.out.println("Length of my fist name is " + firstNameLen);
 
         // 2. Does your last name starts with "K" (Ignoring cases)
-        boolean lastNameStarts_K = lastName.toUpperCase().startsWith("K");
+        boolean lastNameStarts_K = splitName[1].toUpperCase().startsWith("K");
         System.out.println("Does your last name starts with 'K' (Ignoring cases)? " + lastNameStarts_K);
 
         //3. print the last alphabet of your first name
-        int lastIndexOfFistName = lengthOfFirstName - 1;
-        char lastCharAt = firstName.charAt(lastIndexOfFistName);
+        int lastIndexOfFistName = firstNameLen - 1;
+        char lastCharAt = splitName[0].charAt(lastIndexOfFistName);
         System.out.println("The last alphabet of my first name is " + lastCharAt);
 
         // 4. Does your last name ends with "M" (Ignoring cases)
-        boolean lastNameEnds_M_IgnoringCases = lastName.toUpperCase().endsWith("M");
+        boolean lastNameEnds_M_IgnoringCases = splitName[1].toUpperCase().endsWith("M");
         System.out.println("Does your last name ends with 'M' (Ignoring cases)? " + lastNameEnds_M_IgnoringCases);
 
 
@@ -41,8 +41,10 @@ public class Homework3 {
         //7. Calculate the length of your first name, without using length() method of String class.
         //String firstName ="Balzhima";
 
-        int indexof_a = firstName.lastIndexOf("a");
-        System.out.println("The length of my first name: " + indexof_a);
+                String Fullname= "Balzhima Damdinova";
+//        String [] splitName1= Fullname.split(" ");
+//        String firstNamelasyIndex = splitName1[0].split("");
+//        System.out.println("The length of my first name: " + firstNamelasyIndex);
 
 
         //8.Assign result (boolean) as true if length of strNew if greater than 10 else assign false.
