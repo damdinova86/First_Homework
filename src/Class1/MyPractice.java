@@ -5,13 +5,10 @@ import java.sql.SQLOutput;
 public class MyPractice {
 
     public static void main(String[] args) {
-
-
-        // find lastIndex (length-1)sout, find secondIndex (length-2)sout
-        String word = "happy";
-        int lastIndex = word.length()-1;
-
-
+        String name ="Have a good day";
+        int lastSpace = name.lastIndexOf(" ");
+        String lastWord = name.substring(lastSpace);
+        System.out.println(lastWord);
 
 
 
