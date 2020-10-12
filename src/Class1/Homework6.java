@@ -22,7 +22,6 @@ public class Homework6 {
     }
 
     public static double arrayAvg(int[] num1) {
-        int lengthOfArray = num1.length;
         double sum = 0;
         for (int i = 0; i <= num1.length - 1; i++) {
             sum += num1[i];
