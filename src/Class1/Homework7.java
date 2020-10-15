@@ -83,26 +83,17 @@ public class Homework7 {
  * 2.2. Body of the loop:
  *
  */
-//    public void duplicateValue(String[] words) {
-//        int[] dublicateWordsIndex = {};
-//        for (int i = 0; i <= words.length - 1; i++) {
-//            // to compare if we have duplicate values in the storage
-//            for(int j=0; j<=dublicateWordsIndex.length-1;j++){
-//                if(words[i].equalsIgnoreCase(words[dublicateWordsIndex[j]])){
-//                    continue;
-//
-//                }
-//
-//            }
-//            // create this loop to populate dublicateWordsIndex
-//            for (int k=0; k<=words.length-1;k++){
-//                if(words[i].equalsIgnoreCase(words[k])){
-//                    dublicateWordsIndex
-//                }
-//            }
-//        }
-//        System.out.println(dublicateWords);
-//    }
+public void duplicateWord(String[] allwords){
+    String findDuplicate="";
+    for(int i=0;i<=allwords.length-1;i++){
+        if(allwords[i].contains(findDuplicate)) {
+            findDuplicate = allwords[i];
+          continue;
+
+        }
+    }
+    System.out.println(findDuplicate);
+}
 
 /**
  * 5. Write a method to print(no return) the common values between two arrays (string arrays)
