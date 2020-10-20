@@ -133,6 +133,33 @@ public void duplicateWord(String[] allwords){
         System.out.println(results);
 
 
+//        public int firstPerfectSq(int[] arr){
+//            int firstPerfectS=0;
+//            boolean foundPerfectSquare = false;
+//            int num =0;
+//            for(int i=0; i<=20;i++){
+//                num=i*i;
+//                for(int m=0;m<arr.length;m++){
+//                    if(num==arr[m]){
+//                        foundPerfectSquare=true;
+//                        firstPerfectS=arr[m];
+//                        break;
+//                    }
+//                } if(foundPerfectSquare){
+//                    break;
+//                }
+//            }
+//        }
+
+//        public int vowelNumber(String[] str){
+//            int vowelCount =0;
+//            for(int i=0;i<str.toLowerCase().length(); i++){
+//                if(str.charAt(i)=='a'|| str.charAt(i)=='e'|| str.charAt(i)=='i'|| str.charAt(i)=='o'||str.charAt(i))=='u'){
+//                    vowelCount++;
+//
+//                }
+//            }
+//        }
 
 
 
