@@ -31,10 +31,39 @@
 ////    }
 ////}
 //
+// Scanner sc = new Scanner(System.in);
+//  int T =sc.nextInt();
 //
 //
+/**
+ * Create a method which can tell if given List<Integer> contains duplicate data or not.
+ * Input: List<Integer>
+ * Return type: boolean
+ *
+ */
+//       /*
 //
+//        Print the key-value as shows below:
+//            101 -> Happy
+//            102 -> Very Happy
+//            1000 -> Peace
+//            9898 -> stay healthy
+//         */
+//        Map<Integer,String> ssnData = new HashMap<>();
+//        ssnData.put(101, "Happy");
+//        ssnData.put(102, "Very Happy");
+//        ssnData.put(1000, "Peace");
+//        ssnData.put(9898, "stay healthy");
+//        Set<Integer> allKeys= ssnData.keySet();
+//        System.out.println(allKeys);
 //
+//        System.out.println(allKeys);
+//        Collection<String> allValue= ssnData.values();
+//        System.out.println(allValue);
+
+
+
+
 
 
 

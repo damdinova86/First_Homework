@@ -1,7 +1,24 @@
 package Class1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Exam {
     public static void main(String[] args) {
+        Homework10 H1= new Homework10();
+        List<String> words = new ArrayList<>();
+        words.add("happy");
+        words.add("peace");
+        words.add("joy");
+        words.add("grow");
+        words.add("joy");
+        words.add("laugh");
+        words.add("happy");
+        words.add("laugh");
+        words.add("joy");
+
+
+
         Exam E1= new Exam();
         //Problem 1
         int [] array= {32, 14, 24, 98, 24, 56, 148, 24, 78, 24};
@@ -134,4 +151,10 @@ public class Exam {
         }
 
     }
+
+
+
+
+
+
 }
