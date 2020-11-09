@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class Teacher {
     String id;
-    int studentsMaxSizeOfClass;
+    int SizeOfClass;
     HashMap<String, String> attendance;
 
     public Teacher(String teacherID, int studentsInClass) {
@@ -21,7 +21,7 @@ public class Teacher {
             return false;
         }
         if (num <=10) {
-            studentsMaxSizeOfClass = num;
+            SizeOfClass = num;
         }
         return true;
 
@@ -29,7 +29,8 @@ public class Teacher {
     //4. Add Students from Admin section
 
     public void addStudents(String id) {
-        if (attendance.size() < studentsMaxSizeOfClass) {
+
+        if (attendance.size() < SizeOfClass) {
             attendance.put(id, "");
             System.out.println(attendance);
         } else {
